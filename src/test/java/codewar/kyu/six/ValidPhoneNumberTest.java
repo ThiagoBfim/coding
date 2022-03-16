@@ -1,4 +1,6 @@
-package codewar.kyu;
+package codewar.kyu.six;
+
+import codewar.kyu.six.ValidPhoneNumber;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

@@ -1,4 +1,4 @@
-package codewar.kyu;
+package codewar.kyu.six;
 
 import java.util.regex.Pattern;
 
