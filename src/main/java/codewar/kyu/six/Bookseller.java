@@ -27,10 +27,10 @@ public class Bookseller {
 
         Map<String, Integer> categoriesQuantity = new LinkedHashMap<>();
 
-        Stream.of(lstOf1stLetter).map(s -> s.replaceAll("\\[|]", ""))
+        Stream.of(lstOf1stLetter)
                 .forEach(c -> categoriesQuantity.put(c, 0));
 
-        Stream.of(lstOfArt).map(s -> s.replaceAll("\\[|]", ""))
+        Stream.of(lstOfArt)
                 .forEach(s -> {
                     var key = Character.toString(s.charAt(0));
                     if (categoriesQuantity.containsKey(key)) {
