@@ -24,4 +24,8 @@ public class SplitOddNumber {
         return pairs.toArray(new String[0]);
     }
 
+    static String[] betterSolution(String s) {
+        return (s + (s.length() % 2 > 0 ? "_" : "")).split("(?<=\\G.{2})");
+    }
+
 }
