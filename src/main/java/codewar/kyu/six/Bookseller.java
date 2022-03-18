@@ -46,4 +46,15 @@ public class Bookseller {
         return result.delete(result.length() - 3, result.length()).toString();
     }
 
+
+    public static String betterSolution(String[] lstOfArt, String[] lstOf1stLetter) {
+        if (lstOfArt.length == 0 || lstOf1stLetter.length ==  0)
+            return "";
+        final Map<String, Integer> counts = stream(lstOfArt)
+                .collect(groupingBy(s -> s.substring(0, 1), summingInt(i -> Integer.parseInt(i.split(" ")[1]))));
+        return stream(lstOf1stLetter)
+                .map(s -> "(" + s + " : " + counts.getOrDefault(s, 0) + ")")
+                .collect(joining(" - "));
+    }
+
 }
