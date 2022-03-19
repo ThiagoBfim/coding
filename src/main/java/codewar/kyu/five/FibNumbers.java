@@ -40,4 +40,16 @@ public class FibNumbers {
 
         return elements;
     }
+
+    public static long[] betterSolution(final long prod) {
+        if (prod < 0) return new long[]{0, 0, 0};
+        long a = 0;
+        long b = 1;
+        while (a * b < prod) {
+            final long c = a + b;
+            a = b;
+            b = c;
+        }
+        return new long[]{a, b, a * b == prod ? 1 : 0};
+    }
 }
