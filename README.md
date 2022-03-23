@@ -28,4 +28,14 @@ Project with some KATA :)
     <td><a href="https://www.codewars.com/kata/5541f58a944b85ce6d00006a">Product of consecutive Fib numbers</a></td>
     <td>FibNumbers</td>
   </tr>
+   <tr>
+     <td><img src="http://i.imgur.com/wGVxr9j.png" alt="5 kyu"/></td>
+     <td><a href="https://www.codewars.com/kata/55e7280b40e1c4a06d0000aa">Best Travel</a></td>
+     <td>BestTravel</td>
+   </tr>
+  <tr>
+    <td><img src="http://i.imgur.com/wGVxr9j.png" alt="5 kyu"/></td>
+    <td><a href="https://www.codewars.com/kata/55c04b4cc56a697bb0000048">Scramblies</a></td>
+    <td>Scramblies</td>
+  </tr>
  </table>
