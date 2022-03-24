@@ -34,11 +34,7 @@ public class PaginationHelper<I> {
      * returns the number of pages
      */
     public int pageCount() {
-        double pageCount = elements.size() / (double) itemsPerPage;
-        if (pageCount % 1 == 0) {
-            return (int) pageCount;
-        }
-        return (int) pageCount + 1;
+        return (int)Math.ceil(itemCount() / (float)itemsPerPage);
     }
 
     /**
