@@ -38,4 +38,9 @@ Project with some KATA :)
     <td><a href="https://www.codewars.com/kata/55c04b4cc56a697bb0000048">Scramblies</a></td>
     <td>Scramblies</td>
   </tr>
+  <tr>
+      <td><img src="http://i.imgur.com/wGVxr9j.png" alt="5 kyu"/></td>
+      <td><a href="https://www.codewars.com/kata/515bb423de843ea99400000a">PaginationHelper</a></td>
+      <td>PaginationHelper</td>
+  </tr>
  </table>
