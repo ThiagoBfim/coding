@@ -42,5 +42,10 @@ Project with some KATA :)
       <td><img src="http://i.imgur.com/wGVxr9j.png" alt="5 kyu"/></td>
       <td><a href="https://www.codewars.com/kata/515bb423de843ea99400000a">PaginationHelper</a></td>
       <td>PaginationHelper</td>
+  </tr> 
+  <tr>
+      <td><img src="http://i.imgur.com/wGVxr9j.png" alt="5 kyu"/></td>
+      <td><a href="https://www.codewars.com/kata/561e9c843a2ef5a40c0000a4">Gap in Primes</a></td>
+      <td>Gap in Primes</td>
   </tr>
  </table>
