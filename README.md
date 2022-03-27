@@ -40,12 +40,18 @@ Project with some KATA :)
   </tr>
   <tr>
       <td><img src="http://i.imgur.com/wGVxr9j.png" alt="5 kyu"/></td>
-      <td><a href="https://www.codewars.com/kata/515bb423de843ea99400000a">PaginationHelper</a></td>
+      <td><a href="https://www.codewars.com/kata/515bb423de843ea99400000a">Pagination Helper</a></td>
       <td>PaginationHelper</td>
   </tr> 
   <tr>
       <td><img src="http://i.imgur.com/wGVxr9j.png" alt="5 kyu"/></td>
-      <td><a href="https://www.codewars.com/kata/561e9c843a2ef5a40c0000a4">Gap in Primes</a></td>
-      <td>Gap in Primes</td>
+      <td><a href="https://www.codewars.com/kata/561e9c843a2ef5a40c0000a4">Gap In Primes</a></td>
+      <td>GapInPrimes</td>
+  </tr> 
+  <tr>
+      <td><img src="http://i.imgur.com/wGVxr9j.png" alt="5 kyu"/></td>
+      <td><a href="https://www.codewars.com/kata/526989a41034285187000de4">Count IP Addresses</a></td>
+      <td>CountIPAddresses
+</td>
   </tr>
  </table>
