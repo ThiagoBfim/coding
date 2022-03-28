@@ -51,7 +51,11 @@ Project with some KATA :)
   <tr>
       <td><img src="http://i.imgur.com/wGVxr9j.png" alt="5 kyu"/></td>
       <td><a href="https://www.codewars.com/kata/526989a41034285187000de4">Count IP Addresses</a></td>
-      <td>CountIPAddresses
-</td>
+      <td>CountIPAddresses</td> 
+  </tr>
+  <tr>
+      <td><img src="http://i.imgur.com/Sk20Fhz.png" alt="4 kyu"/></td>
+      <td><a href="https://www.codewars.com/kata/526989a41034285187000de4">TextAlignJustify</a></td>
+      <td>Text align justify</td>
   </tr>
  </table>
