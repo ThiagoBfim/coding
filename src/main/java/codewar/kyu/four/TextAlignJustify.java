@@ -6,8 +6,11 @@ import java.util.stream.Stream;
 
 public class TextAlignJustify {
 
+    public static final String BLANK_SPACE = " ";
+    public static final String BREAK_LINE = "\n";
+
     public static String justify(String text, int width) {
-        String[] words = text.split(" ");
+        String[] words = text.split(BLANK_SPACE);
         var textJustify = new StringBuilder();
 
         Stream.of(words)
@@ -19,22 +22,22 @@ public class TextAlignJustify {
     private static void breakLines(int width, StringBuilder textJustify, String w) {
         String[] lines = getLines(textJustify.toString());
         if (lines[lines.length - 1].length() + w.length() <= width) {
-            textJustify.append(w).append(" ");
+            textJustify.append(w).append(BLANK_SPACE);
         } else {
-            textJustify.append("\n").append(w).append(" ");
+            textJustify.append(BREAK_LINE).append(w).append(BLANK_SPACE);
         }
     }
 
     private static String justifyText(StringBuilder textJustify, int width) {
         String[] lines = getLines(textJustify.toString());
         return Stream.of(lines)
-                .limit(lines.length - 1)
+                .limit(lines.length - 1L)
                 .map(line -> addingSpaces(line, width))
-                .collect(Collectors.joining("\n")) + "\n" + lines[lines.length - 1];
+                .collect(Collectors.joining(BREAK_LINE)) + BREAK_LINE + lines[lines.length - 1];
     }
 
     private static String[] getLines(String text) {
-        return text.split("\n");
+        return text.split(BREAK_LINE);
     }
 
     private static String addingSpaces(String line, int width) {
@@ -46,16 +49,17 @@ public class TextAlignJustify {
                 return line;
             }
             line = Stream.of(words)
-                    .limit(words.length - 1)
+                    .limit(words.length - 1L)
                     .map(w -> w + sumSpaces(numberSpaces))
-                    .collect(Collectors.joining("")) + words[words.length - 1];
+                    .collect(Collectors.joining(""))
+                    + words[words.length - 1];
             numberSpaces.incrementAndGet();
         }
         return line;
     }
 
     private static String sumSpaces(AtomicInteger numberSpaces) {
-        return new String(new char[numberSpaces.get()]).replace("\0", " ");
+        return new String(new char[numberSpaces.get()]).replace("\0", BLANK_SPACE);
     }
 
 
