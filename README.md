@@ -58,4 +58,9 @@ Project with some KATA :)
       <td><a href="https://www.codewars.com/kata/526989a41034285187000de4">TextAlignJustify</a></td>
       <td>Text align justify</td>
   </tr>
+  <tr>
+      <td><img src="http://i.imgur.com/wGVxr9j.png" alt="5 kyu"/></td>
+      <td><a href="https://www.codewars.com/kata/55c6126177c9441a570000cc">WeightSort</a></td>
+      <td>Weight for weight</td>
+  </tr>
  </table>
