@@ -63,4 +63,9 @@ Project with some KATA :)
       <td><a href="https://www.codewars.com/kata/55c6126177c9441a570000cc">WeightSort</a></td>
       <td>Weight for weight</td>
   </tr>
- </table>
+  <tr>
+      <td><img src="http://i.imgur.com/ZccZynH.png" alt="6 kyu"/></td>
+      <td><a href="https://www.codewars.com/kata/5b7d7ce57a0c9d86c700014b">ConnectRopes</a></td>
+      <td>AddAll</td>
+  </tr>
+</table>
