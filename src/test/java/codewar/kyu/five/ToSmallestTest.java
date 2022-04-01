@@ -18,7 +18,6 @@ class ToSmallestTest {
         System.out.println("Basic Tests smallest");
         testing(261235, "[126235, 2, 0]");
         testing(209917, "[29917, 0, 1]");
-        testing(21997, "[12997, 1, 0]");
         testing(285365, "[238565, 3, 1]");
         testing(269045, "[26945, 3, 0]");
         testing(296837, "[239687, 4, 1]");
@@ -40,7 +39,6 @@ class ToSmallestTest {
         testing(238640003005671296L, "[23864000305671296, 9, 0]");
         testing(935855753L, "[358557539, 0, 8]");
         testing(325920108686957120L, "[32592010868695712, 17, 0]");
-//                 358557539
     }
 
 }
