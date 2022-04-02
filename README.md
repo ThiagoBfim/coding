@@ -67,5 +67,10 @@ Project with some KATA :)
       <td><img src="http://i.imgur.com/ZccZynH.png" alt="6 kyu"/></td>
       <td><a href="https://www.codewars.com/kata/5b7d7ce57a0c9d86c700014b">ConnectRopes</a></td>
       <td>AddAll</td>
+  </tr> 
+  <tr>
+      <td><img src="http://i.imgur.com/8S5Xl1A.png" alt="8 kyu"/></td>
+      <td><a href="https://www.codewars.com/kata/557cd6882bfa3c8a9f0000c1">ParseStringToInt</a></td>
+      <td>Parse nice int from char problem</td>
   </tr>
 </table>
