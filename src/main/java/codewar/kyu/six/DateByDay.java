@@ -1,10 +1,17 @@
 package codewar.kyu.six;
 
+import java.time.LocalDate;
 import java.time.Month;
+import java.time.format.DateTimeFormatter;
 import java.util.LinkedHashMap;
+import java.util.Locale;
 import java.util.Map;
 
 public class DateByDay {
+
+    static String getDayCleaver(int day, boolean isLeap) {
+        return DateTimeFormatter.ofPattern("LLLL, d").withLocale(Locale.US).format(LocalDate.ofYearDay(isLeap ? 2020 : 2021, day));
+    }
 
     public static String getDay(int day, boolean isLeap) {
         Map<Month, Integer> calendar = new LinkedHashMap<>();
