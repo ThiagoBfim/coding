@@ -72,5 +72,10 @@ Project with some KATA :)
       <td><img src="http://i.imgur.com/8S5Xl1A.png" alt="8 kyu"/></td>
       <td><a href="https://www.codewars.com/kata/557cd6882bfa3c8a9f0000c1">ParseStringToInt</a></td>
       <td>Parse nice int from char problem</td>
+  </tr>  
+  <tr>
+      <td><img src="http://i.imgur.com/ZccZynH.png" alt="6 kyu"/></td>
+      <td><a href="https://www.codewars.com/kata/602afedfd4a64d0008eb4e6e">DateByDay</a></td>
+      <td>Determine the date by the day number</td>
   </tr>
 </table>
