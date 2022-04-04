@@ -78,4 +78,9 @@ Project with some KATA :)
       <td><a href="https://www.codewars.com/kata/602afedfd4a64d0008eb4e6e">DateByDay</a></td>
       <td>Determine the date by the day number</td>
   </tr>
+  <tr>
+      <td><img src="http://i.imgur.com/wGVxr9j.png" alt="5 kyu"/></td>
+      <td><a href="https://www.codewars.com/kata/52774a314c2333f0a7000688">ValidParentheses</a></td>
+      <td>Valid Parentheses</td>
+  </tr>
 </table>
