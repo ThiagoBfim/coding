@@ -9,7 +9,7 @@ import java.util.Map;
 
 public class DateByDay {
 
-    static String getDayCleaver(int day, boolean isLeap) {
+    static String getDayClever(int day, boolean isLeap) {
         return DateTimeFormatter.ofPattern("LLLL, d").withLocale(Locale.US).format(LocalDate.ofYearDay(isLeap ? 2020 : 2021, day));
     }
 
