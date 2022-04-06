@@ -8,17 +8,6 @@ import java.util.stream.Collectors;
 public class MysteryFunction {
 
     /**
-     * Return the value by position
-     *
-     * @param position
-     * @return
-     */
-    public static long mystery(long position) {
-        List<StringBuilder> numbers = populateNumbers(position);
-        return Integer.parseInt(numbers.get((int) position).toString(), 2);
-    }
-
-    /**
      * https://codereview.stackexchange.com/questions/184299/a-tiny-java-library-for-generating-gray-codes
      *
      * @param n
@@ -47,6 +36,17 @@ public class MysteryFunction {
             populateNumbers(numbers);
         } while (numbers.size() <= n);
         return numbers;
+    }
+
+    /**
+     * Return the value by position
+     *
+     * @param position
+     * @return
+     */
+    public static long mystery(long position) {
+        List<StringBuilder> numbers = populateNumbers(position);
+        return Integer.parseInt(numbers.get((int) position).toString(), 2);
     }
 
     /**
