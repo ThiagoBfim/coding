@@ -18,6 +18,29 @@ public class MysteryFunction {
         return Integer.parseInt(numbers.get((int) position).toString(), 2);
     }
 
+    /**
+     * https://codereview.stackexchange.com/questions/184299/a-tiny-java-library-for-generating-gray-codes
+     *
+     * @param n
+     * @return
+     */
+    static long grayCodeClever(long n) {
+        return n ^ (n >>> 1);
+    }
+
+    /**
+     * https://rosettacode.org/wiki/Gray_code#Java
+     *
+     * @param value
+     * @return
+     */
+    static long grayCodeInvClever(long value) {
+        long p = value;
+        while ((value >>>= 1) != 0)
+            p ^= value;
+        return p;
+    }
+
     private static List<StringBuilder> populateNumbers(long n) {
         List<StringBuilder> numbers = new LinkedList<>();
         do {
