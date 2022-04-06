@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class MysteryFunction {
+public class GrayCode {
 
     /**
      * https://codereview.stackexchange.com/questions/184299/a-tiny-java-library-for-generating-gray-codes
