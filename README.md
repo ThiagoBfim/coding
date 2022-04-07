@@ -83,4 +83,9 @@ Project with some KATA :)
       <td><a href="https://www.codewars.com/kata/52774a314c2333f0a7000688">ValidParentheses</a></td>
       <td>Valid Parentheses</td>
   </tr>
+  <tr>
+      <td><img src="http://i.imgur.com/Sk20Fhz.png" alt="4 kyu"/></td>
+      <td><a href="https://www.codewars.com/kata/56b2abae51646a143400001d">GrayCode</a></td>
+      <td>Mystery Function</td>
+   </tr>
 </table>
