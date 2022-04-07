@@ -55,13 +55,13 @@ Project with some KATA :)
   </tr>
   <tr>
       <td><img src="http://i.imgur.com/Sk20Fhz.png" alt="4 kyu"/></td>
-      <td><a href="https://www.codewars.com/kata/526989a41034285187000de4">TextAlignJustify</a></td>
-      <td>Text align justify</td>
+      <td><a href="https://www.codewars.com/kata/526989a41034285187000de4">Text align justify</a></td>
+      <td>TextAlignJustify</td>
   </tr>
   <tr>
       <td><img src="http://i.imgur.com/wGVxr9j.png" alt="5 kyu"/></td>
-      <td><a href="https://www.codewars.com/kata/55c6126177c9441a570000cc">WeightSort</a></td>
-      <td>Weight for weight</td>
+      <td><a href="https://www.codewars.com/kata/55c6126177c9441a570000cc">Weight for weight</a></td>
+      <td>WeightSort</td>
   </tr>
   <tr>
       <td><img src="http://i.imgur.com/ZccZynH.png" alt="6 kyu"/></td>
