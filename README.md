@@ -70,22 +70,22 @@ Project with some KATA :)
   </tr> 
   <tr>
       <td><img src="http://i.imgur.com/8S5Xl1A.png" alt="8 kyu"/></td>
-      <td><a href="https://www.codewars.com/kata/557cd6882bfa3c8a9f0000c1">ParseStringToInt</a></td>
-      <td>Parse nice int from char problem</td>
+      <td><a href="https://www.codewars.com/kata/557cd6882bfa3c8a9f0000c1">Parse nice int from char problem</a></td>
+      <td>ParseStringToInt</td>
   </tr>  
   <tr>
       <td><img src="http://i.imgur.com/ZccZynH.png" alt="6 kyu"/></td>
-      <td><a href="https://www.codewars.com/kata/602afedfd4a64d0008eb4e6e">DateByDay</a></td>
-      <td>Determine the date by the day number</td>
+      <td><a href="https://www.codewars.com/kata/602afedfd4a64d0008eb4e6e">Determine the date by the day number</a></td>
+      <td>DateByDay</td>
   </tr>
   <tr>
       <td><img src="http://i.imgur.com/wGVxr9j.png" alt="5 kyu"/></td>
-      <td><a href="https://www.codewars.com/kata/52774a314c2333f0a7000688">ValidParentheses</a></td>
-      <td>Valid Parentheses</td>
+      <td><a href="https://www.codewars.com/kata/52774a314c2333f0a7000688">Valid Parentheses</a></td>
+      <td>ValidParentheses</td>
   </tr>
   <tr>
       <td><img src="http://i.imgur.com/Sk20Fhz.png" alt="4 kyu"/></td>
-      <td><a href="https://www.codewars.com/kata/56b2abae51646a143400001d">GrayCode</a></td>
-      <td>Mystery Function</td>
-   </tr>
+      <td><a href="https://www.codewars.com/kata/56b2abae51646a143400001d">Mystery Function</a></td>
+      <td>GrayCode</td>
+  </tr>
 </table>
