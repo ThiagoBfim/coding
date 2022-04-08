@@ -88,4 +88,9 @@ Project with some KATA :)
       <td><a href="https://www.codewars.com/kata/56b2abae51646a143400001d">Mystery Function</a></td>
       <td>GrayCode</td>
   </tr>
+  <tr>
+      <td><img src="http://i.imgur.com/ZccZynH.png" alt="6 kyu"/></td>
+      <td><a href="https://www.codewars.com/kata/5503013e34137eeeaa001648">Give me a Diamond</a></td>
+      <td>Diamond</td>
+   </tr>
 </table>
