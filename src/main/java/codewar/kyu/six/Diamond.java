@@ -3,6 +3,18 @@ package codewar.kyu.six;
 
 public class Diamond {
 
+    public static String printClever(int n) {
+        if (n % 2  == 0 || n <= 0) {return null;}
+        var expected = new StringBuilder();
+        for (int i = 1; i <= n; i+=2) {
+            expected.append(" ".repeat((n - i) / 2)).append("*".repeat(i)).append("\n");
+        }
+        for (int i = n - 2; i >= 1; i-=2) {
+            expected.append(" ".repeat((n - i) / 2)).append("*".repeat(i)).append("\n");
+        }
+        return expected.toString();
+    }
+
     public static String print(int n) {
         if (n <= 0 || n % 2 == 0) {
             return null;
