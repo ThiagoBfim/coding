@@ -5,6 +5,10 @@ import java.time.format.DateTimeFormatter;
 
 public class HumanReadableTime {
 
+    public static String makeReadableClever(int seconds) {
+        return String.format("%02d:%02d:%02d", seconds / 3600, (seconds / 60) % 60, seconds % 60);
+    }
+
     public static String makeReadable(int seconds) {
         final var dateTimeFormatterOutput = DateTimeFormatter.ofPattern("HH:mm:ss");
         final var dateTimeFormatterInput = DateTimeFormatter.ofPattern("H:m:s");
