@@ -14,7 +14,7 @@ public class GrayCode {
      * @return
      */
     static long grayCodeClever(long n) {
-        return n ^ (n >>> 1);
+        return n ^ n>>>1; //same as n/2
     }
 
     /**
@@ -25,8 +25,10 @@ public class GrayCode {
      */
     static long grayCodeInvClever(long value) {
         long p = value;
-        while ((value >>>= 1) != 0)
+        do{
+            value = value>>>1; //same as value/2
             p ^= value;
+        } while (value != 0);
         return p;
     }
 
