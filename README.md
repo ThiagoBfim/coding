@@ -95,7 +95,12 @@ Project with some KATA :)
   </tr>
   <tr>
       <td><img src="http://i.imgur.com/wGVxr9j.png" alt="5 kyu"/></td>
-      <td><a href="https://www.codewars.com/kata/52685f7382004e774f0001f7/solutions/java">Human Readable Time</a></td>
+      <td><a href="https://www.codewars.com/kata/52685f7382004e774f0001f7">Human Readable Time</a></td>
       <td>HumanReadableTime</td>
-   </tr>
+  </tr> 
+  <tr>
+      <td><img src="http://i.imgur.com/ZccZynH.png" alt="6 kyu"/></td>
+      <td><a href="https://www.codewars.com/kata/622de76d28bf330057cd6af8">How many pages in a book?</a></td>
+      <td>HowManyPagesInABook</td>
+  </tr>
 </table>
