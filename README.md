@@ -103,4 +103,9 @@ Project with some KATA :)
       <td><a href="https://www.codewars.com/kata/622de76d28bf330057cd6af8">How many pages in a book?</a></td>
       <td>HowManyPagesInABook</td>
   </tr>
+  <tr>
+      <td><img src="http://i.imgur.com/INcuEgb.png" alt="7 kyu"/></td>
+      <td><a href="https://www.codewars.com/kata/5b752a42b11814b09c00005d">Recursion 101</a></td>
+      <td>Recursion101</td>
+  </tr>
 </table>
