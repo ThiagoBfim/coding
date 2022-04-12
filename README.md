@@ -113,4 +113,9 @@ Project with some KATA :)
       <td><a href="https://leetcode.com/problems/add-two-numbers/solution/">Add Two Numbers</a></td>
       <td>SumOfNumbers</td>
   </tr>
+  <tr>
+      <td><img src="http://i.imgur.com/ZccZynH.png" alt="6 kyu"/></td>
+      <td><a href="https://www.codewars.com/kata/51b62bf6a9c58071c600001b">Roman Numerals Encoder</a></td>
+      <td>RomanEncoder</td>
+  </tr>
 </table>
