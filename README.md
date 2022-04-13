@@ -118,4 +118,9 @@ Project with some KATA :)
       <td><a href="https://www.codewars.com/kata/51b62bf6a9c58071c600001b">Roman Numerals Encoder</a></td>
       <td>RomanEncoder</td>
   </tr>
+  <tr>
+      <td><img src="http://i.imgur.com/Sk20Fhz.png" alt="4 kyu"/></td>
+      <td><a href="https://www.codewars.com/kata/51b66044bce5799a7f000003">Roman Numerals Helper</a></td>
+      <td>RomanHelper</td>
+  </tr>
 </table>
