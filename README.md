@@ -123,4 +123,9 @@ Project with some KATA :)
       <td><a href="https://www.codewars.com/kata/51b66044bce5799a7f000003">Roman Numerals Helper</a></td>
       <td>RomanHelper</td>
   </tr>
+  <tr>
+      <td><img src="http://i.imgur.com/ZccZynH.png" alt="6 kyu"/></td>
+      <td><a href="https://www.codewars.com/kata/5277c8a221e209d3f6000b56">Valid Braces</a></td>
+      <td>ValidBraces</td>
+  </tr>
 </table>
