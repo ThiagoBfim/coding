@@ -128,9 +128,14 @@ Project with some KATA :)
       <td><a href="https://www.codewars.com/kata/5277c8a221e209d3f6000b56">Valid Braces</a></td>
       <td>ValidBraces</td>
   </tr>
-   <tr>
+  <tr>
       <td><img src="http://i.imgur.com/ZccZynH.png" alt="6 kyu"/></td>
       <td><a href="https://www.codewars.com/kata/5b76a34ff71e5de9db0000f2">Simple time difference</a></td>
       <td>SimpleTimeDifference</td>
-   </tr>
+  </tr>
+  <tr>
+       <td><img src="http://i.imgur.com/ZccZynH.png" alt="6 kyu"/></td>
+       <td><a href="https://www.codewars.com/kata/514b92a657cdc65150000006">Multiples of 3 or 5</a></td>
+       <td>Multiples3and5</td>
+  </tr>
 </table>
