@@ -138,4 +138,9 @@ Project with some KATA :)
        <td><a href="https://www.codewars.com/kata/514b92a657cdc65150000006">Multiples of 3 or 5</a></td>
        <td>Multiples3and5</td>
   </tr>
+  <tr>
+       <td><img src="http://i.imgur.com/ZccZynH.png" alt="6 kyu"/></td>
+       <td><a href="https://www.codewars.com/kata/5880e6e59785e5a52b000bd7">Graph Operations, part 1: find neighbours of a vertex</a></td>
+       <td>GraphOperations</td>
+  </tr>
 </table>
