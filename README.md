@@ -143,4 +143,9 @@ Project with some KATA :)
        <td><a href="https://www.codewars.com/kata/5880e6e59785e5a52b000bd7">Graph Operations, part 1: find neighbours of a vertex</a></td>
        <td>GraphOperations</td>
   </tr>
+  <tr>
+       <td><img src="http://i.imgur.com/ZccZynH.png" alt="6 kyu"/></td>
+       <td><a href="https://www.codewars.com/kata/58813b22647b4ccdb80000ca">Graph Operations, part 2: Your distance from a colleague</a></td>
+       <td>GraphOperationsPart2</td>
+  </tr>
 </table>
