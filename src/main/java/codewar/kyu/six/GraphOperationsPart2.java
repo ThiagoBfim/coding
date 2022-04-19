@@ -5,7 +5,7 @@ import java.util.stream.Collectors;
 
 public class GraphOperationsPart2 {
 
-    public static int hopDistance(Graph graph, Vertex source, Vertex target) {
+    public static int hopDistanceClever(Graph graph, Vertex source, Vertex target) {
         Set<Vertex> visitedVertexes = new HashSet<>();
         Set<Vertex> freshlyVisited = new HashSet<>();
         Map<Vertex, Set<Vertex>> mapVertex = new HashMap<>();
@@ -30,6 +30,49 @@ public class GraphOperationsPart2 {
             distance++;
         }
         return distance;
+    }
+
+    public static Set<Vertex> getNeighbours(Graph graph, Vertex vertex) {
+        return graph.getEdges().stream()
+                .filter(v -> v.v1.equals(vertex) || v.v2.equals(vertex))
+                .map(v -> {
+                    if (!v.v1.equals(vertex)) {
+                        return v.v1;
+                    } else {
+                        return v.v2;
+                    }
+                }).collect(Collectors.toSet());
+    }
+
+
+    public static int hopDistance(final Graph graph, final Vertex source, final Vertex target){
+        final var vertices = graph.getVertices();
+        if (!vertices.contains(source) || !vertices.contains(target))
+            return -1;
+        if (source.equals(target))
+            return 0;
+
+        final var visitedVertices = new HashSet<Vertex>();
+        visitedVertices.add(source);
+
+        var currentVertices = new HashSet<Vertex>();
+        currentVertices.add(source);
+
+        var distance = 1;
+        while (!currentVertices.isEmpty()) {
+            final var newCurrentVertices = new HashSet<Vertex>();
+            for (var vertex : currentVertices) {
+                for (var neighbour : getNeighbours(graph, vertex)) {
+                    if (neighbour.equals(target))
+                        return distance;
+                    if (visitedVertices.add(neighbour))
+                        newCurrentVertices.add(neighbour);
+                }
+            }
+            currentVertices = newCurrentVertices;
+            distance++;
+        }
+        return -1;
     }
 
     static class Graph {
