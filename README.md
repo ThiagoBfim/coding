@@ -144,8 +144,13 @@ Project with some KATA :)
        <td>GraphOperations</td>
   </tr>
   <tr>
-       <td><img src="http://i.imgur.com/ZccZynH.png" alt="6 kyu"/></td>
+       <td><img src="http://i.imgur.com/wGVxr9j.png" alt="5 kyu"/></td>
        <td><a href="https://www.codewars.com/kata/58813b22647b4ccdb80000ca">Graph Operations, part 2: Your distance from a colleague</a></td>
        <td>GraphOperationsPart2</td>
+  </tr>
+  <tr>
+       <td><img src="http://i.imgur.com/ZccZynH.png" alt="6 kyu"/></td>
+       <td><a href="https://www.codewars.com/kata/5889fe09f32a8ec33c000014">Graph Operations, part 3: Friendly departments at work</a></td>
+       <td>GraphOperationsPart3</td>
   </tr>
 </table>
