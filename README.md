@@ -153,4 +153,9 @@ Project with some KATA :)
        <td><a href="https://www.codewars.com/kata/5889fe09f32a8ec33c000014">Graph Operations, part 3: Friendly departments at work</a></td>
        <td>GraphOperationsPart3</td>
   </tr>
+  <tr>
+       <td><img src="http://i.imgur.com/Sk20Fhz.png" alt="4 kyu"/></td>
+       <td><a href="https://www.codewars.com/kata/541af676b589989aed0009e7">Counting Change Combinations</a></td>
+       <td>CountingChangeCombinations</td>
+  </tr>
 </table>
