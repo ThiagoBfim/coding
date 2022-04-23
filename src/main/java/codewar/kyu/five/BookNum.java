@@ -22,4 +22,13 @@ public class BookNum {
         return rTotal;
     }
 
+    public static long pageDigitsClever(long pages) {
+        long k = 0, i = 1;
+        while (i <= pages) {
+            k += pages - i + 1;
+            i *= 10;
+        }
+        return k;
+    }
+
 }
