@@ -158,4 +158,9 @@ Project with some KATA :)
        <td><a href="https://www.codewars.com/kata/541af676b589989aed0009e7">Counting Change Combinations</a></td>
        <td>CountingChangeCombinations</td>
   </tr>
+  <tr>
+       <td><img src="http://i.imgur.com/Sk20Fhz.png" alt="5 kyu"/></td>
+       <td><a href="https://www.codewars.com/kata/55905b7597175ffc1a00005a">Paginating a huge book</a></td>
+       <td>BookNum</td>
+  </tr>
 </table>
