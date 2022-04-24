@@ -159,8 +159,13 @@ Project with some KATA :)
        <td>CountingChangeCombinations</td>
   </tr>
   <tr>
-       <td><img src="http://i.imgur.com/Sk20Fhz.png" alt="5 kyu"/></td>
+       <td><img src="http://i.imgur.com/wGVxr9j.png" alt="5 kyu"/></td>
        <td><a href="https://www.codewars.com/kata/55905b7597175ffc1a00005a">Paginating a huge book</a></td>
        <td>BookNum</td>
+  </tr>
+  <tr>
+       <td><img src="http://i.imgur.com/ZccZynH.png" alt="6 kyu"/></td>
+       <td><a href="https://www.codewars.com/kata/523f5d21c841566fde000009">Array.diff</a></td>
+       <td>ArrayDiff</td>
   </tr>
 </table>
