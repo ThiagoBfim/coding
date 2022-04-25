@@ -134,38 +134,43 @@ Project with some KATA :)
       <td>SimpleTimeDifference</td>
   </tr>
   <tr>
-       <td><img src="http://i.imgur.com/ZccZynH.png" alt="6 kyu"/></td>
-       <td><a href="https://www.codewars.com/kata/514b92a657cdc65150000006">Multiples of 3 or 5</a></td>
-       <td>Multiples3and5</td>
+      <td><img src="http://i.imgur.com/ZccZynH.png" alt="6 kyu"/></td>
+      <td><a href="https://www.codewars.com/kata/514b92a657cdc65150000006">Multiples of 3 or 5</a></td>
+      <td>Multiples3and5</td>
   </tr>
   <tr>
-       <td><img src="http://i.imgur.com/ZccZynH.png" alt="6 kyu"/></td>
-       <td><a href="https://www.codewars.com/kata/5880e6e59785e5a52b000bd7">Graph Operations, part 1: find neighbours of a vertex</a></td>
-       <td>GraphOperations</td>
+      <td><img src="http://i.imgur.com/ZccZynH.png" alt="6 kyu"/></td>
+      <td><a href="https://www.codewars.com/kata/5880e6e59785e5a52b000bd7">Graph Operations, part 1: find neighbours of a vertex</a></td>
+      <td>GraphOperations</td>
   </tr>
   <tr>
-       <td><img src="http://i.imgur.com/wGVxr9j.png" alt="5 kyu"/></td>
-       <td><a href="https://www.codewars.com/kata/58813b22647b4ccdb80000ca">Graph Operations, part 2: Your distance from a colleague</a></td>
-       <td>GraphOperationsPart2</td>
+      <td><img src="http://i.imgur.com/wGVxr9j.png" alt="5 kyu"/></td>
+      <td><a href="https://www.codewars.com/kata/58813b22647b4ccdb80000ca">Graph Operations, part 2: Your distance from a colleague</a></td>
+      <td>GraphOperationsPart2</td>
   </tr>
   <tr>
-       <td><img src="http://i.imgur.com/ZccZynH.png" alt="6 kyu"/></td>
-       <td><a href="https://www.codewars.com/kata/5889fe09f32a8ec33c000014">Graph Operations, part 3: Friendly departments at work</a></td>
-       <td>GraphOperationsPart3</td>
+      <td><img src="http://i.imgur.com/ZccZynH.png" alt="6 kyu"/></td>
+      <td><a href="https://www.codewars.com/kata/5889fe09f32a8ec33c000014">Graph Operations, part 3: Friendly departments at work</a></td>
+      <td>GraphOperationsPart3</td>
   </tr>
   <tr>
-       <td><img src="http://i.imgur.com/Sk20Fhz.png" alt="4 kyu"/></td>
-       <td><a href="https://www.codewars.com/kata/541af676b589989aed0009e7">Counting Change Combinations</a></td>
-       <td>CountingChangeCombinations</td>
+      <td><img src="http://i.imgur.com/Sk20Fhz.png" alt="4 kyu"/></td>
+      <td><a href="https://www.codewars.com/kata/541af676b589989aed0009e7">Counting Change Combinations</a></td>
+      <td>CountingChangeCombinations</td>
   </tr>
   <tr>
-       <td><img src="http://i.imgur.com/wGVxr9j.png" alt="5 kyu"/></td>
-       <td><a href="https://www.codewars.com/kata/55905b7597175ffc1a00005a">Paginating a huge book</a></td>
-       <td>BookNum</td>
+      <td><img src="http://i.imgur.com/wGVxr9j.png" alt="5 kyu"/></td>
+      <td><a href="https://www.codewars.com/kata/55905b7597175ffc1a00005a">Paginating a huge book</a></td>
+      <td>BookNum</td>
   </tr>
   <tr>
-       <td><img src="http://i.imgur.com/ZccZynH.png" alt="6 kyu"/></td>
-       <td><a href="https://www.codewars.com/kata/523f5d21c841566fde000009">Array.diff</a></td>
-       <td>ArrayDiff</td>
+      <td><img src="http://i.imgur.com/ZccZynH.png" alt="6 kyu"/></td>
+      <td><a href="https://www.codewars.com/kata/523f5d21c841566fde000009">Array.diff</a></td>
+      <td>ArrayDiff</td>
+  </tr>
+  <tr>
+      <td><img src="http://i.imgur.com/ZccZynH.png" alt="6 kyu"/></td>
+      <td><a href="https://www.codewars.com/kata/559536379512a64472000053">Playing with passphrases</a></td>
+      <td>PlayPass</td>
   </tr>
 </table>
