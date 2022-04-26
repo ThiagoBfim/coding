@@ -5,6 +5,33 @@ import java.util.stream.Collectors;
 
 public class GraphOperationsPart4 {
 
+    public static boolean isConnectedClever(Graph graph) {
+        if (graph.getEdges().isEmpty()) return graph.getVertices().isEmpty();
+
+        Set<Vertex> visitedVertexes = new HashSet<>();
+        Set<Vertex> freshlyVisited = new HashSet<>();
+        Map<Vertex, Set<Vertex>> mapVertex = new HashMap<>();
+
+        var v1 = new Vertex();
+        for (Edge ed : graph.getEdges()) {
+            v1 = ed.getV1();
+            var v2 = ed.getV2();
+            mapVertex.computeIfAbsent(v1, v -> new HashSet<>()).add(v2);
+            mapVertex.computeIfAbsent(v2, v -> new HashSet<>()).add(v1);
+        }
+        if (mapVertex.isEmpty()) return false;
+
+        visitedVertexes.add(v1);
+        freshlyVisited.add(v1);
+        while (!freshlyVisited.isEmpty()) {
+            freshlyVisited = freshlyVisited.stream()
+                    .flatMap(v -> mapVertex.getOrDefault(v, new HashSet<>()).stream())
+                    .filter(v -> !visitedVertexes.contains(v))
+                    .collect(Collectors.toSet());
+            visitedVertexes.addAll(freshlyVisited);
+        }
+        return visitedVertexes.containsAll(graph.getVertices());
+    }
 
     public static int hopDistance(Vertex source, Vertex target, Map<Vertex, Set<Vertex>> hopes) {
         if (hopes.containsKey(source)) {
