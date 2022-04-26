@@ -173,4 +173,9 @@ Project with some KATA :)
       <td><a href="https://www.codewars.com/kata/559536379512a64472000053">Playing with passphrases</a></td>
       <td>PlayPass</td>
   </tr>
+  <tr>
+      <td><img src="http://i.imgur.com/wGVxr9j.png" alt="5 kyu"/></td>
+      <td><a href="https://www.codewars.com/kata/589c8e6f7bbf64ca8d00073d">Graph Operations, part 4: Is it connected?</a></td>
+      <td>GraphOperationsPart4</td>
+  </tr>
 </table>
