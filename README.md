@@ -188,4 +188,9 @@ Project with some KATA :)
       <td><a href="https://www.codewars.com/kata/57a1d5ef7cb1f3db590002af">Fibonacci</a></td>
       <td>Fibonacci</td>
   </tr>
+  <tr>
+      <td><img src="http://i.imgur.com/INcuEgb.png" alt="7 kyu"/></td>
+      <td><a href="https://www.codewars.com/kata/57a049e253ba33ac5e000212">Factorial</a></td>
+      <td>Factorial</td>
+  </tr>
 </table>
