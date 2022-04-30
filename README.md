@@ -193,4 +193,9 @@ Project with some KATA :)
       <td><a href="https://www.codewars.com/kata/57a049e253ba33ac5e000212">Factorial</a></td>
       <td>Factorial</td>
   </tr>
+  <tr>
+      <td><img src="http://i.imgur.com/wGVxr9j.png" alt="5 kyu"/></td>
+      <td><a href="https://www.codewars.com/kata/54e320dcebe1e583250008fd">Decimal to Factorial and Back</a></td>
+      <td>Dec2Fact</td>
+  </tr>
 </table>
