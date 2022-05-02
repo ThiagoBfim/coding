@@ -203,4 +203,9 @@ Project with some KATA :)
       <td><a href="https://www.codewars.com/kata/58fea5baf3dff03a6e000102">Simple Fun #206: Factorial Digits</a></td>
       <td>FactDigits</td>
   </tr>
+  <tr>
+      <td><img src="http://i.imgur.com/wGVxr9j.png" alt="5 kyu"/></td>
+      <td><a href="https://www.codewars.com/kata/5a045fee46d843effa000070">Factorial decomposition</a></td>
+      <td>FactDecomp</td>
+  </tr>
 </table>
