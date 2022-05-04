@@ -209,7 +209,7 @@ Project with some KATA :)
       <td>FactDecomp</td>
   </tr>
   <tr>
-      <td><img src="http://i.imgur.com/wGVxr9j.png" alt="4 kyu"/></td>
+      <td><img src="http://i.imgur.com/Sk20Fhz.png" alt="4 kyu"/></td>
       <td><a href="https://www.codewars.com/kata/584dee06fe9c9aef810001e8">Last digits of N^2 == N</a></td>
       <td>GreenNumbers</td>
   </tr>
