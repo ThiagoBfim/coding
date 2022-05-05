@@ -1,12 +1,27 @@
 package codewar.kyu.four;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class SortBinaryTree {
+
+    public static List<Integer> treeByLevelsClever(Node node) {
+        if (node == null) return Collections.emptyList();
+        List<Integer> res = new ArrayList<>();
+
+        //breadth-first search
+        Queue<Node> nodesToVisit = new ArrayDeque<>(); //ArrayDeque is better than LinkedList if no removing in between is involved
+        nodesToVisit.offer(node);
+
+        Node current;
+        while ((current = nodesToVisit.poll()) != null) {
+            res.add(current.value);
+            if (current.left != null) nodesToVisit.offer(current.left);
+            if (current.right != null) nodesToVisit.offer(current.right);
+        }
+
+        return res;
+    }
 
     public static List<Integer> treeByLevels(Node node) {
         Map<Integer, List<Integer>> values = new HashMap<>();
