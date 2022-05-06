@@ -223,4 +223,18 @@ Project with some KATA :)
       <td><a href="https://www.codewars.com/kata/541c8630095125aba6000c00">Sum of Digits / Digital Root</a></td>
       <td>DRoot</td>
   </tr>
+  <tr>
+      <td><img src="http://i.imgur.com/wGVxr9j.png" alt="5 kyu"/></td>
+      <td><a href="https://www.codewars.com/kata/520b9d2ad5c005041100000f">Simple Pig Latin</a></td>
+      <td>PigLatin</td>
+  </tr>
 </table>
+
+
+
+<br>
+
+### Good code solutions:
+
+* [Programming tasks](https://rosettacode.org/wiki/Category:Programming_Tasks)
+
