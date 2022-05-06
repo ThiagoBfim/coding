@@ -218,4 +218,9 @@ Project with some KATA :)
       <td><a href="https://www.codewars.com/kata/52bef5e3588c56132c0003bc">Sort binary tree by levels</a></td>
       <td>SortBinaryTree</td>
   </tr>
+  <tr>
+      <td><img src="http://i.imgur.com/ZccZynH.png" alt="6 kyu"/></td>
+      <td><a href="https://www.codewars.com/kata/541c8630095125aba6000c00">Sum of Digits / Digital Root</a></td>
+      <td>DRoot</td>
+  </tr>
 </table>
