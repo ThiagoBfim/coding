@@ -2,6 +2,10 @@ package codewar.kyu.six;
 
 public class DRoot {
 
+    public static int digitalRootClever(int n) {
+        return (n != 0 && n%9 == 0) ? 9 : n % 9;
+    }
+
     public static int digitalRoot(int n) {
         int result = n;
         while (result >=10){
