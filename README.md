@@ -228,6 +228,11 @@ Project with some KATA :)
       <td><a href="https://www.codewars.com/kata/520b9d2ad5c005041100000f">Simple Pig Latin</a></td>
       <td>PigLatin</td>
   </tr>
+  <tr>
+      <td><img src="http://i.imgur.com/Sk20Fhz.png" alt="4 kyu"/></td>
+      <td><a href="https://www.codewars.com/kata/529bf0e9bdf7657179000008">Sudoku Solution Validator</a></td>
+      <td>SudokuValidator</td>
+  </tr>
 </table>
 
 
