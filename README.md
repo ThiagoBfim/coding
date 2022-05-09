@@ -233,6 +233,11 @@ Project with some KATA :)
       <td><a href="https://www.codewars.com/kata/529bf0e9bdf7657179000008">Sudoku Solution Validator</a></td>
       <td>SudokuValidator</td>
   </tr>
+  <tr>
+      <td><img src="http://i.imgur.com/INcuEgb.png" alt="7 kyu"/></td>
+      <td><a href="https://www.codewars.com/kata/581e476d5f59408553000a4b">Fun with lists: length</a></td>
+      <td>FunListLength</td>
+  </tr>
 </table>
 
 
