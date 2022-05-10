@@ -238,6 +238,11 @@ Project with some KATA :)
       <td><a href="https://www.codewars.com/kata/581e476d5f59408553000a4b">Fun with lists: length</a></td>
       <td>FunListLength</td>
   </tr>
+  <tr>
+      <td><img src="http://i.imgur.com/ZccZynH.png" alt="6 kyu"/></td>
+      <td><a href="https://www.codewars.com/kata/58259d9062cfb45e1a00006b">Fun with lists: map</a></td>
+      <td>FunListMap</td>
+  </tr>
 </table>
 
 
