@@ -14,6 +14,11 @@ public class FunListLength {
         return count;
     }
 
+    static int lengthClever(Node head) {
+        return head == null ? 0 : 1 + length(head.next);
+    }
+
+
     static class Node<T> {
         public T data;
         public Node next;
