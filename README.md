@@ -243,6 +243,11 @@ Project with some KATA :)
       <td><a href="https://www.codewars.com/kata/58259d9062cfb45e1a00006b">Fun with lists: map</a></td>
       <td>FunListMap</td>
   </tr>
+  <tr>
+      <td><img src="http://i.imgur.com/INcuEgb.png" alt="7 kyu"/></td>
+      <td><a href="https://www.codewars.com/kata/581c6b075cfa83852700021f">Fun with lists: indexOf</a></td>
+      <td>FunListIndexOf</td>
+  </tr>
 </table>
 
 
