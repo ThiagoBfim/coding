@@ -248,6 +248,11 @@ Project with some KATA :)
       <td><a href="https://www.codewars.com/kata/581c6b075cfa83852700021f">Fun with lists: indexOf</a></td>
       <td>FunListIndexOf</td>
   </tr>
+  <tr>
+      <td><img src="http://i.imgur.com/INcuEgb.png" alt="7 kyu"/></td>
+      <td><a href="https://www.codewars.com/kata/581c867a33b9fe732e000076">Fun with lists: lastIndexOf</a></td>
+      <td>FunListLastIndexOf</td>
+  </tr>
 </table>
 
 
