@@ -253,6 +253,11 @@ Project with some KATA :)
       <td><a href="https://www.codewars.com/kata/581c867a33b9fe732e000076">Fun with lists: lastIndexOf</a></td>
       <td>FunListLastIndexOf</td>
   </tr>
+  <tr>
+      <td><img src="http://i.imgur.com/INcuEgb.png" alt="7 kyu"/></td>
+      <td><a href="https://www.codewars.com/kata/581e50555f59405743001813">Fun with lists: anyMatch + allMatch</a></td>
+      <td>FunListMatch</td>
+  </tr>
 </table>
 
 
