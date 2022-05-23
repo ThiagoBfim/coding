@@ -258,6 +258,11 @@ Project with some KATA :)
       <td><a href="https://www.codewars.com/kata/581e50555f59405743001813">Fun with lists: anyMatch + allMatch</a></td>
       <td>FunListMatch</td>
   </tr>
+  <tr>
+      <td><img src="http://i.imgur.com/ZccZynH.png" alt="6 kyu"/></td>
+      <td><a href="https://www.codewars.com/kata/582041237df353e01d000084">Fun with lists: filter</a></td>
+      <td>FunListFilter</td>
+  </tr>
 </table>
 
 
