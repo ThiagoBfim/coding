@@ -17,6 +17,8 @@ public class PigLatin {
         return completePhrase.substring(0, completePhrase.length() - 1);
     }
 
-
+    public static String pigItClever(String str) {
+        return str.replaceAll("(\\w)(\\w*)", "$2$1ay");
+    }
 
 }
