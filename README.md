@@ -268,6 +268,11 @@ Project with some KATA :)
       <td><a href="https://www.codewars.com/kata/582041237df353e01d000084">Fun with lists: reduce</a></td>
       <td>FunListReduce</td>
   </tr>
+  <tr>
+      <td><img src="http://i.imgur.com/wGVxr9j.png" alt="5 kyu"/></td>
+      <td><a href="https://www.codewars.com/kata/5866ce53dbca9af9940000d3">Fun with lists: trees edition (Flatten)</a></td>
+      <td>FunListTreeFlatten</td>
+  </tr>
 </table>
 
 
