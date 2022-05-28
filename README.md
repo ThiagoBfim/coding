@@ -1,7 +1,6 @@
 # Day to Day Coding
 Project with some KATA :)
 
-
 <table>
   <tr>
     <th>Difficulty</th>
@@ -283,6 +282,13 @@ Project with some KATA :)
 
 
 <br>
+
+
+### My Profiles:
+
+* [codewars](https://www.codewars.com/users/ThiagoBfim)
+* [leetcode](https://leetcode.com/ThiagoBfim/)
+
 
 ### Good code solutions:
 
