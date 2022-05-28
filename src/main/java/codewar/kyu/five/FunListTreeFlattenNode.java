@@ -41,6 +41,21 @@ public class FunListTreeFlattenNode {
         return new ArrayList<>(treeValues);
     }
 
+    static ListNode flattenClever(TreeNode root) {
+        Set<Integer> list = new TreeSet<>((a, b) -> -Integer.compare(a, b));
+        flattenClever(root, list);
+        return list.stream().map(ListNode::new).reduce((a, b) -> {b.next = a; return b;}).orElse(null);
+    }
+
+    static void flattenClever(TreeNode root, Set<Integer> values) {
+        if (root != null) {
+            for (ListNode node = root.value; node != null; node = node.next) {
+                values.add(node.data);
+            }
+            flattenClever(root.left, values);
+            flattenClever(root.right, values);
+        }
+    }
     static class ListNode {
         public int data;
         public ListNode next;

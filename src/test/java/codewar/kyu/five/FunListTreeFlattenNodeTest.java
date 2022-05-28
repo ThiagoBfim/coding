@@ -8,6 +8,7 @@ import org.junit.jupiter.api.Test;
 class FunListTreeFlattenNodeTest {
 
     private static void testFlatten(TreeNode input_tree_root, ListNode expected_list_head){
+        Assertions.assertThat(FunListTreeFlattenNode.flattenClever(input_tree_root)).isEqualTo(expected_list_head);
         Assertions.assertThat(FunListTreeFlattenNode.flatten(input_tree_root)).isEqualTo(expected_list_head);
     }
 
