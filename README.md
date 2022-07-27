@@ -277,6 +277,11 @@ Project with some KATA :)
       <td><a href="https://www.codewars.com/kata/586640f739c5ab4f4c00022f">Fun with lists: trees edition (Flatten Node)</a></td>
       <td>FunListTreeFlatten</td>
   </tr>
+  <tr>
+      <td><img src="http://i.imgur.com/INcuEgb.png" alt="7 kyu"/></td>
+      <td><a href="https://www.codewars.com/kata/525f039017c7cd0e1a000a26">Palindrome chain length</a></td>
+      <td>Palindromes</td>
+  </tr>
 </table>
 
 
